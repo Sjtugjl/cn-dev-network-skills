@@ -1,0 +1,7 @@
+version: 1
+name: china-dev-network-skill
+description: Skill metadata for diagnosing mainland-China developer network problems with a probe-first, rollback-aware workflow.
+instructions_file: ../SKILL.md
+entrypoints:
+  default:
+    description: Collect context, probe endpoints, choose the fastest stable source, generate configuration commands, verify, and provide rollback guidance.

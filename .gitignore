@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test and cache artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Local diagnostics output
+*.log
+*.tmp
+*.bak
+*.local.json
+network-context*.json
+diagnose-network*.json
+
+# IDE
+.idea/
+.vscode/
